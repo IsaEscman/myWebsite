@@ -770,12 +770,17 @@ select {
   gap: 1rem;
 }
 
-.post-card {
-  padding: 1.4rem;
-  border-radius: 22px;
-  background: linear-gradient(180deg, var(--panel), rgba(255, 255, 255, 0.03));
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
+.post-entry {
+  padding: 0 0 1.3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-entry:last-child {
+  border-bottom: 0;
+}
+
+.post-title {
+  margin: 0.35rem 0 0.45rem;
 }
 
 .post-meta {
@@ -809,6 +814,28 @@ select {
 .post-link {
   margin-top: 1rem;
   align-self: flex-start;
+}
+
+.blog-article {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-article h2 {
+  margin: 1.7rem 0 0.55rem;
+  font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+}
+
+.blog-article p {
+  margin: 0 0 0.95rem;
+  color: #d7def6;
+  line-height: 1.72;
+  font-size: 1.03rem;
+}
+
+.blog-intro {
+  font-size: 1.13rem;
+  color: #edf1ff;
 }
 
 .empty-state {
