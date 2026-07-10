@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inicio | Mi sitio</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Traducir un sitio | Mi sitio</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
-<body data-page="home" data-title-es="Inicio | Mi sitio" data-title-en="Home | My site">
+<body data-page="blog-detail" data-title-es="Traducir un sitio | Mi sitio" data-title-en="Translate a site | My site">
   <header class="site-header">
     <div class="container header-shell">
       <div class="header-top">
-        <a class="brand" href="index.html" data-i18n="brand"></a>
+        <a class="brand" href="../index.html" data-i18n="brand"></a>
         <div class="language-switch" aria-label="Language selector">
           <span class="language-label" data-i18n="language.label"></span>
           <button type="button" class="lang-btn" data-lang-switch="es">ES</button>
@@ -18,37 +18,40 @@
         </div>
       </div>
       <nav class="site-nav" aria-label="Main navigation">
-        <a class="nav-link is-active" href="index.html" data-i18n="nav.home"></a>
-        <a class="nav-link" href="about.html" data-i18n="nav.about"></a>
-        <a class="nav-link" href="projects.html" data-i18n="nav.projects"></a>
-        <a class="nav-link" href="blog.html" data-i18n="nav.blog"></a>
+        <a class="nav-link" href="../index.html" data-i18n="nav.home"></a>
+        <a class="nav-link" href="../about.html" data-i18n="nav.about"></a>
+        <a class="nav-link" href="../projects.html" data-i18n="nav.projects"></a>
+        <a class="nav-link is-active" href="../blog.html" data-i18n="nav.blog"></a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero-home-poster">
-      <div class="container">
-        <div class="poster-header-row">
-          <p class="poster-name" data-i18n="home.posterName"></p>
-        </div>
-
-        <div class="poster-stage">
-          <h2 class="poster-word poster-word-left" data-i18n="home.posterWordLeft"></h2>
-
-          <div class="poster-avatar-wrap">
-            <div class="poster-blob" aria-hidden="true"></div>
-            <img class="poster-avatar" src="ChatGPT Image 10 jul 2026, 04_58_14-Photoroom.png" alt="Avatar Isabel" onerror="this.onerror=null;this.src='https://picsum.photos/seed/avatar-fallback/780/1080';">
-          </div>
-
-          <h2 class="poster-word poster-word-right" data-i18n="home.posterWordRight"></h2>
-        </div>
-
-        <article class="home-intro-card">
-          <p class="home-intro-text" data-i18n="home.intro"></p>
-        </article>
-      </div>
+  <main class="container page-main detail-page">
+    <section class="page-hero">
+      <p class="eyebrow" data-i18n="blogDetails.first-one.eyebrow"></p>
+      <h1 data-i18n="blogDetails.first-one.title"></h1>
+      <p class="lead" data-i18n="blogDetails.first-one.dateLine"></p>
     </section>
+
+    <section class="content-grid two-up">
+      <article class="content-card">
+        <h2 data-i18n="blogDetails.first-one.sectionOneTitle"></h2>
+        <p data-i18n="blogDetails.first-one.sectionOneText"></p>
+      </article>
+      <article class="content-card">
+        <h2 data-i18n="blogDetails.first-one.sectionTwoTitle"></h2>
+        <p data-i18n="blogDetails.first-one.sectionTwoText"></p>
+        <ul class="skill-list">
+          <li data-i18n="blogDetails.first-one.pointOne"></li>
+          <li data-i18n="blogDetails.first-one.pointTwo"></li>
+          <li data-i18n="blogDetails.first-one.pointThree"></li>
+        </ul>
+      </article>
+    </section>
+
+    <div class="detail-actions">
+      <a class="btn btn-secondary" href="../blog.html" data-i18n="blogDetails.back"></a>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -60,6 +63,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>

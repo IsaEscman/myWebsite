@@ -167,7 +167,7 @@ const translations = {
         pointTwo: 'Más intención en cada bloque',
         pointThree: 'Prioriza lectura y ritmo'
       },
-      translation: {
+      'first-one': {
         eyebrow: 'Entrada del blog',
         title: 'Mi primera entrada al blog: Los inicios de la IA',
         dateLine: 'Publicado el 1 de julio de 2026',
@@ -328,7 +328,7 @@ const translations = {
       portfolio: {
         eyebrow: 'Blog post',
         title: 'How to organize a portfolio from scratch',
-        dateLine: 'Published on July 1, 2026',
+        dateLine: 'Published on July 9, 2026',
         sectionOneTitle: 'Main idea',
         sectionOneText: 'Before showing work it helps to decide which story you want to tell and which piece represents you best.',
         sectionTwoTitle: 'Practical advice',
@@ -340,7 +340,7 @@ const translations = {
       design: {
         eyebrow: 'Blog post',
         title: 'Design decisions that actually matter',
-        dateLine: 'Published on June 18, 2026',
+        dateLine: 'Published on July 3, 2026',
         sectionOneTitle: 'Main idea',
         sectionOneText: 'Color, typography and spacing directly change how a page feels.',
         sectionTwoTitle: 'Practical advice',
@@ -349,10 +349,10 @@ const translations = {
         pointTwo: 'More intention in every block',
         pointThree: 'Prioritize reading flow and rhythm'
       },
-      translation: {
+      'first-one': {
         eyebrow: 'Blog post',
-        title: 'Translate a site without duplicating logic',
-        dateLine: 'Published on May 7, 2026',
+        title: 'My first blog post: The beginnings of AI',
+        dateLine: 'Published on July 1, 2026',
         sectionOneTitle: 'Main idea',
         sectionOneText: 'A single source of truth for text prevents inconsistencies when you change languages.',
         sectionTwoTitle: 'Practical advice',
@@ -368,24 +368,24 @@ const translations = {
 const blogPosts = [
   {
     path: 'blog-portfolio.html',
-    date: '2026-07-01',
+    date: '2026-07-09',
     themes: ['portfolio', 'strategy'],
     title: { es: 'Cómo organizar un portfolio desde cero', en: 'How to organize a portfolio from scratch' },
     excerpt: { es: 'Una guía corta para pensar estructura, contenido y narrativa antes de publicar tu trabajo.', en: 'A short guide to structure, content and narrative before publishing your work.' }
   },
   {
     path: 'blog-design.html',
-    date: '2026-06-18',
+    date: '2026-07-03',
     themes: ['design', 'content'],
     title: { es: 'Decisiones de diseño que sí importan', en: 'Design decisions that actually matter' },
     excerpt: { es: 'Color, tipografía y espaciado pueden cambiar por completo la percepción de una página.', en: 'Color, typography and spacing can completely change how a page feels.' }
   },
   {
-    path: 'blog-translation.html',
-    date: '2026-05-07',
+    path: 'blog-first-one/',
+    date: '2026-07-01',
     themes: ['code', 'research'],
-    title: { es: 'Traducir un sitio sin duplicar lógica', en: 'Translate a site without duplicating logic' },
-    excerpt: { es: 'Cómo mantener una sola fuente de verdad para textos, navegación y formularios.', en: 'How to keep a single source of truth for text, navigation and forms.' }
+    title: { es: 'Mi primera entrada al blog: Los inicios de la IA', en: 'My first blog post: The beginnings of AI' },
+    excerpt: { es: 'Bienvenid@s a mi blog, en esta primera entrada compartiré un poco sobre la historia de la inteligencia artificial, que es lo que las personas piensan que es, frente a la realidad de esta caja negra.', en: 'Welcome to my blog, in this first post I will share a bit about the history of artificial intelligence, what people think it is, versus the reality of this black box.'}
   }
 ];
 
